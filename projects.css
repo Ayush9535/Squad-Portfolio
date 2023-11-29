@@ -19,7 +19,7 @@ body{
     font-size: 250px;
     font-weight: 600;
     position: relative;
-    bottom: 30px;
+    bottom: 10px;
 }
 
 .card-container{
@@ -30,7 +30,7 @@ body{
     grid-column-gap: 50px;
     place-content: center;
     position: relative;
-    bottom: 130px;
+    bottom: 100px;
 }
 
 p{
@@ -55,6 +55,7 @@ h1 , h5{
     overflow: hidden;
     border-radius: 10px;
     transition: all 0.5s ease;
+    border: 3px solid white;
     /* box-shadow: 0 0 0 0 red; */
 }
 
@@ -73,6 +74,7 @@ h1 , h5{
     justify-content: center;
     align-items: center;
     font-size:xx-large;
+    
 }
 
 .card:hover::before{
@@ -80,6 +82,7 @@ h1 , h5{
 }
 
 .card:hover{
+    border: 3px solid rgb(239, 68, 68);
     box-shadow: 0 0 8px 8px rgb(239, 68, 68);
     /* transform: scale(1.2); */
 }

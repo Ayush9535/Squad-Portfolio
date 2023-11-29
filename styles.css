@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'poppins';
+    font-size: 14px;
+    background-color: #000000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 10px;
+    display: flex;
+}
+
+.logo,
+.logo1,
+.logo2,
+.menu,
+.search,
+.bag {
+    position: absolute;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+a{
+    color: white;
+}
+
+.logo {
+    left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.logo1 {
+    left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    top: 30px;
+}
+.logo2 {
+    left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    top: 60px;
+}
+
+.menu {
+    left: 150px;
+    top: 15px;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.search,
+.bag {
+    background: #fff;
+    color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.search {
+    right: 140px;
+}
+
+.bag {
+    right: 40px;
+}
+
+.product-img {
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 2;
+}
+
+.product-text {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.product-title {
+    background: -webkit-linear-gradient(#c29494, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    /* letter-spacing: -10px; */
+    font-size: 150px;
+    margin-top: 125px;
+    font-family: 'Belanosima', sans-serif;
+    animation: languageAnimation 6s linear infinite;
+}
+
+.product-desc {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -585px;
+    z-index: 2;
+}
+
+.product-desc p {
+    position: absolute;
+    font-size: 20px;
+    top: -450px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+
+.size {
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+}
+
+.size ul {
+    list-style: none;
+}
+
+.size ul li {
+    display: inline-block;
+    font-weight: 500;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 1.5;
+    transition: .3s ease-in-out;
+}
+
+.size span {
+    font-weight: 500;
+}
+
+.size span::after {
+    display: inline-block;
+    content: "";
+    border: .5px solid #fff;
+    opacity: .5;
+    width: 50px;
+    margin: 0 0 0 10px;
+    transform: translateY(-4px);
+}
+
+.bottom-img {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    background: url('white-shoe.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 220px;
+    height: 150px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    left: 86.5%;
+}
+
+.bottom-right ul {
+    list-style: none;
+}
+
+.bottom-right ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 20px 20px 20px 0;
+    background: #624652;
+}
+
+.media ul {
+    list-style: none;
+    position: fixed;
+    left: 45px;
+    top: 35%;
+}
+
+.media ul li {
+    font-size: 18px;
+    margin: 24px 0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 2;
+    background: #fff;
+}
+
+.first {
+    top: 0;
+}
+
+.second {
+    top: 33.3%;
+}
+
+.third {
+    top: 66.6%;
+}
+
+
+/* CSS */
+.button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 40px;
+}
+
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+    margin-top: -70px;
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 58%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+  margin-top: -33px;
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+    margin-top: -70px;
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
