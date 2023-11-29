@@ -49,6 +49,10 @@ button{
     margin-bottom: 10px;
 }
 
+a{
+    color: white;
+}
+
 .card{
     background-color: black;
     padding: 8px;
@@ -56,6 +60,7 @@ button{
     text-align: center;
     padding: 15px 8px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .col2{
