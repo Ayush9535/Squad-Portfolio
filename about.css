@@ -2,6 +2,17 @@
 
 body{
     background-color: rgba(0, 0, 0, 0.92);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h5{
+    margin: 20px;
+}
+
+.card h3{
+    margin-top: 20px;
 }
 
 .heading{
@@ -18,7 +29,7 @@ body{
 }
 .card-container{
     display: grid;
-    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-columns: 27vw 27vw 27vw;
     color: white;
     grid-row-gap: 35px;
     grid-column-gap: 50px;
