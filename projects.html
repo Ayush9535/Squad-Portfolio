@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    
+    <div class="heading">
+        <p>PROJECTS</p>
+        <p class="websites">WEBSITES</p>
+    </div>
+
+    <div class="card-container">
+        <div class="card flex-center">
+            <img src="./ASSETS/barber.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Naad Brahma.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Vibes n coffee.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/rental car.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/staypawsitive.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Stylux.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/LoveCare.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/dhyaanshala.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/cgi.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Security.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/chinmayee portfolio.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Forest project.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/World Wide Travel.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/shopease1.png" class="web-img">
+        </div>
+    </div>
+
+    <div>
+        <p class="websites games">GAMES</p>
+    </div>
+
+    <div class="card-container games-container">
+        <div class="card">
+            <img src="./ASSETS/dots and boxes.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Zombie Undead.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/snakegame.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/syncro Minds.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Ladder Legacy.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Hangman.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/aero blocks adventure.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Jungle Matrix.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/TypeRacer.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Quiz Game.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/sweetswipe.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/archery3d.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/puzzle.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Maze Game.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/guess my number.png" class="web-img">
+        </div>
+        <div class="card">
+            <img src="./ASSETS/Brick Breaker.png" class="web-img">
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+
+    var ProjectNames = ["BARBER SHOP" , "Nand Brahma" , "Vibes N'Coffee" , "RENTAL CAR" , "Stay Pawsitive" , "Stylux" , "LoveCare" , "DhyannShala" , "CGI" , "Security & Services" , "Portfolio" , "Forest Project" , "World Wide Travel" , "Shope Ease" , "Dots and Boxes" , "Zombie Undead" , "Snake Game" , "Syncro Minds" , "Ladder Legacy" , "Hangman Game" , "Aero Blocks Adventure" , "Jungle Matrix" , "TypeRacer" , "Quiz Game" , "Sweet Swipe" , "Archery 3d" , "Puzzle Game" , "Maze Game" , "Guess My Number" , "Brick Breaker"]
+    
+    var styEle = document.head.appendChild(document.createElement("style"))
+
+    var AllCards = document.querySelectorAll(".card")
+    for (let i=0 ; i<ProjectNames.length ; i++){
+        AllCards[i].setAttribute("id" , `a${i}`)
+        styEle.innerHTML += `#a${i}::before{content:"${ProjectNames[i]}";}`
+    }
+
+    
+</script>
