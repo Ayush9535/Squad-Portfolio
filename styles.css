@@ -9,7 +9,8 @@ body {
     height: 100vh;
     font-family: 'poppins';
     font-size: 14px;
-    background-color: #000000;
+    /* background-color: #000000; */
+    background-image: url(ASSETS/red\ bgimg.jpg);
     color: #fff;
     overflow: hidden;
 }
