@@ -102,7 +102,7 @@ body::-webkit-scrollbar-thumb{
 }
 .name:hover .about{
     display: block;
-    animation: about 2.5s 0.3s linear forwards;
+    animation: about 2.5s  linear forwards;
 }
 @keyframes about {
     0%{

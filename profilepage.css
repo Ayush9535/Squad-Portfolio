@@ -55,8 +55,7 @@ body{
     
     box-shadow: 3px 3px 0px white;
 }
-.content li:hover{
-}
+
 .content li:active{
     transform: scale(0.9);
     box-shadow: none;
