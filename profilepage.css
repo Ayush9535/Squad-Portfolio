@@ -73,8 +73,8 @@ ol a{
     color: white;
 }
 
-ol a:hover{
-    color: red;
+ol li:hover{
+    box-shadow: none;
 }
 
 .img{
