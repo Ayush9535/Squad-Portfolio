@@ -7,7 +7,6 @@
     font-family:'Inria Sans', sans-serif;
 }
 body{
-    width: 100vw;
     height: 100vh;
     background-color: #000000e9;
     display: flex;
