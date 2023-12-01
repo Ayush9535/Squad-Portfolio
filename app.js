@@ -26,5 +26,5 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 document.querySelector('.button-82-pushable').addEventListener("click" , ()=>{
-    window.location.href = "projects.html"
+    window.location.href = "explore.html"
 })  
