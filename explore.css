@@ -24,6 +24,17 @@ body::-webkit-scrollbar-thumb{
     background-color: rgb(255, 41, 41);
     border-radius: 20px;
 }
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
 .logo-img{
     background-image: url(ASSETS/SQUAD56LOGO-removebg-preview.png);
     background-size: 100% 100%;
@@ -31,8 +42,8 @@ body::-webkit-scrollbar-thumb{
     width: 120px;
     height: 120px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 0px;
+    right: 20px;
 
 }
 .container{

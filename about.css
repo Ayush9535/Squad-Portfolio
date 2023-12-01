@@ -16,9 +16,19 @@ body{
     width: 120px;
     height: 120px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    /* top: 20px; */
+    right: 20px;
 
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 .logo-text a{
