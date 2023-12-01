@@ -28,6 +28,9 @@ body{
     padding: 0px;
     font-weight: 100;
     letter-spacing: 1px;
+        font-weight: 800;
+    filter: drop-shadow(0 0 2px red);
+    letter-spacing: 2px;
 }
 .nameAndAbout h5{
     color: white;
