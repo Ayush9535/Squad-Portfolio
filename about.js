@@ -1,3 +1,18 @@
+localStorage.setItem("Arya" , 0)
+localStorage.setItem("Athrava" , 0)
+localStorage.setItem("Ayush" , 0)
+localStorage.setItem("Sagar" , 0)
+localStorage.setItem("Bhagirath" , 0)
+localStorage.setItem("Shreyas" , 0)
+localStorage.setItem("Shriyans" , 0)
+localStorage.setItem("Chinamayee" , 0)
+localStorage.setItem("Dhruv" , 0)
+localStorage.setItem("Pranjal" , 0)
+localStorage.setItem("Janhavi" , 0)
+localStorage.setItem("Joyce" , 0)
+localStorage.setItem("vaishnavi" , 0)
+localStorage.setItem("Kshitij" , 0)
+
 function handleArya(source , event){
     if (source == "arya"){
         window.location.href = "./members/ARYA.html"
