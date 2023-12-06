@@ -1,3 +1,25 @@
+let card_container = document.getElementById("card-container")
+console.log(document.getElementById("card-container"))
+player_details.forEach(element => {
+
+
+    card_container.innerHTML += ` <div class="card flex-center arya" onclick="handleArya('arya' , event)">
+    <div class="person-image" style="background-image: url('${element['img']}'); background-size: cover; background-position-x: center;">
+        
+    </div>
+    <div>
+        <h3>${element['Name']}</h3>
+        <h5>${element['about']}</h5>
+
+        <div class="icon-container flex-center">
+            <a href="${element['github']}" target="_blank"><img src="./ASSETS/Github.png" onclick="handleArya('github' , event)"></a>
+            <a href="${element['insta']}"  target="_blank"><img  src="./ASSETS/Instagram Circle.png" onclick="handleArya('insta' , event)"></a>
+            <a href="${element['linkedin']}"  target="_blank"><img src="./ASSETS/LinkedIn.png" onclick="handleArya('linkedin' , event)"></a>    
+        </div>
+    </div>
+</div>`
+
+});
 function handleArya(source , event){
     if (source == "arya"){
         window.location.href = "./members/ARYA.html"
@@ -217,3 +239,6 @@ function handleBhagirath(source , event){
 
     event.stopPropagation()
 }
+// console.log(player_details)
+
+
