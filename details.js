@@ -5,7 +5,8 @@ var player_details = [
         github:"https://github.com/patilarya76",
         linkedin:"https://www.linkedin.com/in/arya-patil-899a11272/",
         insta:"https://instagram.com/aaar.yya?igshid=MmVlMjlkMTBhMg==",
-        img : './ASSETS/arya\ profile.jpeg'
+        img : './ASSETS/arya\ profile.jpeg',
+        class:'arya'
 
     },
      {
@@ -14,7 +15,8 @@ var player_details = [
         github:"https://github.com/abhinav0306",
         linkedin:"https://www.linkedin.com/in/abhinav-843b7526a/",
         insta:"https://www.instagram.com/imabhiinav/",
-        img : './ASSETS/abhinav\ profile.jpg'
+        img : './ASSETS/abhinav\ profile.jpg',
+        class:'abhinav'
 
     },
      {
@@ -23,7 +25,8 @@ var player_details = [
         github:"https://github.com/ATHARVA279",
         linkedin:"https://www.linkedin.com/in/atharva-kharade-604944287/",
         insta:"",
-        img : './ASSETS/Athravaprofile.jpg'
+        img : './ASSETS/Athravaprofile.jpg',
+        class:'atharva'
     }
     ,
      {
@@ -32,7 +35,8 @@ var player_details = [
         github:"https://github.com/Ayush9535",
         linkedin:"https://www.linkedin.com/in/ayush-ghodke-8aab941bb/",
         insta:"https://instagram.com/ayushghodke_9535?igshid=OGQ5ZDc2ODk2ZA==",
-        img : './ASSETS/ayushprofile.jpg'
+        img : './ASSETS/ayushprofile.jpg',
+        class:'ayush'
     }
     ,
      {
@@ -41,7 +45,8 @@ var player_details = [
         github:"https://github.com/bhagirathauti",
         linkedin:"https://www.linkedin.com/in/bhagirathauti",
         insta:"https://www.instagram.com/bhagirathauti/",
-        img : './ASSETS/Bhagirath\ profile.jpg'
+        img : './ASSETS/Bhagirath\ profile.jpg',
+        class:'bhagirath'
     }
     ,
      {
@@ -50,7 +55,8 @@ var player_details = [
         github:"https://github.com/CHINMAYEEHARANE58",
         linkedin:"https://www.linkedin.com/in/chinmayee-harane-568896287/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         insta:"https://www.instagram.com/chinmayeeharane/?igshid=M2RkZGJiMzhjOQ%3D%3D",
-        img : './ASSETS/chinmayee\ profile.jpeg'
+        img : './ASSETS/chinmayee\ profile.jpeg',
+        class:'chinmayee'
     }
     ,
      {
@@ -59,7 +65,8 @@ var player_details = [
         github:"https://github.com/Dhruv-Patil-1720",
         linkedin:"https://www.linkedin.com/in/dhruv-patil-83a72723a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         insta:"https://instagram.com/dhruvpatil_20?utm_source=qr&igshid=YzU1NGVlODEzOA==" ,
-        img : './ASSETS/Dhruv\ Profile.png'
+        img : './ASSETS/Dhruv\ Profile.png',
+        class:'dhruv'
     }
     ,
      {
@@ -68,7 +75,8 @@ var player_details = [
         github:"https://github.com/Janhavi003",
         linkedin:"http://www.linkedin.com/in/janhavi-hivarekar-1b74a028b",
         insta:"https://www.instagram.com/janhaviii.2103/",
-        img : './ASSETS/janhavi\ profile.jpg'
+        img : './ASSETS/janhavi\ profile.jpg',
+        class:'janhavi'
     }
     ,
      {
@@ -77,7 +85,8 @@ var player_details = [
         github:"https://github.com/JoyceUbale",
         linkedin:"http://www.linkedin.com/in/joyce-ubale-942847297",
         insta:"https://www.instagram.com/joyce_ubale/",
-        img : './ASSETS/joyceprofile.jpeg'
+        img : './ASSETS/joyceprofile.jpeg',
+        class:'joyce'
     }
     ,
      {
@@ -86,7 +95,8 @@ var player_details = [
         github:"https://github.com/kshitij162005",
         linkedin:"https://www.linkedin.com/in/kshitij-kotecha-66a0231a2/",
         insta:"https://www.instagram.com/kshitij_kotecha/",
-        img : './ASSETS/kshitij\ profile.jpeg'
+        img : './ASSETS/kshitij\ profile.jpeg',
+        class:'kshitij'
     }
     ,
      {
@@ -95,7 +105,8 @@ var player_details = [
         github:"https://github.com/pranjal-2507",
         linkedin:"http://www.linkedin.com/in/pranjal-gosavi-21b182292",
         insta:"https://www.instagram.com/pranjalgosavi_25/",
-        img : './ASSETS/pranjal\ profile.jpg'
+        img : './ASSETS/pranjal\ profile.jpg',
+        class:'pranjal'
     }
     ,
      {
@@ -104,7 +115,8 @@ var player_details = [
         github:"https://github.com/rautsagar214",
         linkedin:"https://www.linkedin.com/in/sagar-raut-0b3a82288/",
         insta:"https://www.instagram.com/official_sagar_raut_6063/",
-        img : './ASSETS/sagar\ profile.jpg'
+        img : './ASSETS/sagar\ profile.jpg',
+        class:'sagar'
     }
     ,
      {
@@ -114,6 +126,8 @@ var player_details = [
         linkedin:"https://www.linkedin.com/in/shreyas-wagh-228563280/",
         insta:"",
         img : './ASSETS/Shreyash\ profile.jpg'
+        ,
+        class:'shreyas'
     }
     ,
      {
@@ -122,7 +136,8 @@ var player_details = [
         github:"https://github.com/ShriyansJindal",
         linkedin:"https://www.linkedin.com/in/shriyans-jindal/",
         insta:"https://www.instagram.com/jindal.shriyans/?igshid=OGQ5ZDc2ODk2ZA%3D%3D",
-        img : './ASSETS/shriyansprofile.jpg'
+        img : './ASSETS/shriyansprofile.jpg',
+        class:'Shriyans'
     }
     ,
      {
@@ -131,7 +146,8 @@ var player_details = [
         github:"https://github.com/223vaishu",
         linkedin:"https://www.linkedin.com/in/vaishnavi-salunkhe-63a870287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         insta:"https://instagram.com/vaish____19?igshid=NzZlODBkYWE4Ng==",
-        img : './ASSETS/vaishnavi\ profile.jpeg'
+        img : './ASSETS/vaishnavi\ profile.jpeg',
+        class:'vaishnavi'
     }
     ,
      {
@@ -140,6 +156,7 @@ var player_details = [
         github:"https://github.com/codingwithustushar",
         linkedin:"https://www.linkedin.com/in/tushar-shekhar-920272283/",
         insta:"https://instagram.com/tusharshekhar_?igshid=MTNiYzNiMzkwZA==",
-        img : '../ASSETS/tusharprofile.jpg'
+        img : '../ASSETS/tusharprofile.jpg',
+        class:'tushar'
     }
 ]
