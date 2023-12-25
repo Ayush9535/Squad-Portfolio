@@ -249,6 +249,7 @@ body::-webkit-scrollbar-thumb{
     position: relative;
     animation: name .5s linear ;
     animation-fill-mode: forwards;
+    
 }
 .name:hover #last-name{
     position: relative;
@@ -259,42 +260,7 @@ body::-webkit-scrollbar-thumb{
     display: block;
     animation: about 2.5s  linear forwards;
 }
-@keyframes about {
-    0%{
-        filter: opacity(0);
-    }
-    100%{
-        filter: opacity(1);
-    }
-    
-}
-@keyframes name {
-    0%{
-        left: 0;
-    }
-    100%{
-        left: -165px;
-        font-size: 18px;
-        color: #383838ba;
-    }
-    
-}
-@keyframes last-name {
-    0%{
-        left: 0;
-    }
-    100%{
-        left: 165px;
-        font-size: 18px;
-        color: #383838;
-    }
-    
-}
 
-
-.name:hover #first-name{
-    left: -100px;
-}
 
 .post{
     font-size: 30px;
