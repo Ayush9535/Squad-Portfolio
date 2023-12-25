@@ -135,7 +135,7 @@ ol li:hover{
     .content {
         padding-top: 20px;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
@@ -180,5 +180,21 @@ ol li:hover{
 
     .social {
         font-size: 1.3rem;
+    }
+    .squad , .age , .name{
+        display: none;
+    }
+    .details h2{
+        display: none;
+    }
+    .social{
+        width: 30vw;
+        margin-bottom: 5vw;
+    }
+    .img{
+        margin-bottom: 5vw;
+    }
+    ol a{
+        margin: 0;
     }
 }
