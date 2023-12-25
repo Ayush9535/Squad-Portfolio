@@ -259,6 +259,7 @@ body::-webkit-scrollbar-thumb{
 .name:hover .about{
     display: block;
     animation: about 2.5s  linear forwards;
+    font-size: 3.5vw;
 }
 
 
@@ -277,6 +278,9 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     margin-top: 100px;
 }
-
+.about{
+    top: 0;
+    left: -6vw;
+}
 
 }
