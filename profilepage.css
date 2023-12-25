@@ -175,6 +175,7 @@ ol li:hover{
 
     .heading {
         font-size: 0.8rem;
+        z-index: 100;
     }
 
     .social {
