@@ -50,11 +50,11 @@ body::-webkit-scrollbar-thumb{
 
 .websites{
     color: #2B2B2B;
-    font-size: 250px;
+    font-size: 16vw;
     font-weight: 600;
     position: relative;
     bottom: 10px;
-    margin-top: 30px;
+    margin-top: 2vw;
 }
 
 .card-container{
@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb{
     grid-column-gap: 50px;
     place-content: center;
     position: relative;
-    bottom: 100px;
+    bottom: 6.5vw;
 }
 
 p{
@@ -140,4 +140,27 @@ h1 , h5{
 
 .games-container{
     bottom: 180px;
+}
+
+@media all and (max-width: 1000px){
+    .logo-img{
+        width: 80px;
+        height: 80px;
+    }
+    #project{
+        margin-top: 20vw;
+    }
+    .logo{
+        top: 38px;
+    }
+    .card-container{
+        grid-template-columns: auto;
+        padding: 10px 35px;
+    }
+    .games-container{
+        bottom: 0;
+    }
+    .games{
+        bottom: 0;
+    }
 }
