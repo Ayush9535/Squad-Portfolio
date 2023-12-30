@@ -28,18 +28,22 @@ card_container.addEventListener('click',(e)=>{
 //---------------------------------------------------------------------------------------
 card_container.addEventListener('click',(event)=>{
     console.log(event)
-    if (event.target.parentElement.id ){
+    if(event.target.parentElement.id == 'card-container'){
+        window.location.href = `./members/${event.target.id}.html`}
+    
+    else if (event.target.parentElement.id ){
         window.location.href = `./members/${event.target.parentElement.id}.html`}
-    // }else if (event.target.id == "github"){
-    //     window.open("https://github.com/patilarya76" , "_blank")
-    // }else if (event.target.id == "linkedin"){
-    //     window.open("https://www.linkedin.com/in/arya-patil-899a11272/" , "_blank")
-    // }else if (event.target.id == "insta"){
-    //     window.open("https://instagram.com/aaar.yya?igshid=MmVlMjlkMTBhMg==" , "_blank")
-    // }
+//     // }else if (event.target.id == "github"){
+//     //     window.open("https://github.com/patilarya76" , "_blank")
+//     // }else if (event.target.id == "linkedin"){
+//     //     window.open("https://www.linkedin.com/in/arya-patil-899a11272/" , "_blank")
+//     // }else if (event.target.id == "insta"){
+//     //     window.open("https://instagram.com/aaar.yya?igshid=MmVlMjlkMTBhMg==" , "_blank")
+//     // }
 
-    // event.stopPropagation()
-})
+//     // event.stopPropagation()
+}
+)
 
 // ----------------------------------------------------------------
 
